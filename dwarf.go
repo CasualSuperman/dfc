@@ -1,6 +1,7 @@
 package main
 
 type Dwarf struct {
+	name      string
 	hunger    int
 	thirst    int
 	awakeness int
