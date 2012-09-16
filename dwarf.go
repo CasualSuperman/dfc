@@ -11,5 +11,10 @@ type Dwarf struct {
 
 type Relation struct {
 	relation_type int
-	other         *Dwarf
+	relative      *Dwarf
+}
+
+type Position_List []struct {
+	x, y, z int
+	thing *Dwarf
 }
