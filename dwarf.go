@@ -6,6 +6,7 @@ type Dwarf struct {
 	thirst    int
 	awakeness int
 	happiness int
+	age       int
 	relations []Relation
 }
 
