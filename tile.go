@@ -1,9 +1,6 @@
 package main
 
 type Tile struct {
-	material_id int
+	material Material
 	fluid       Fluid
-	dwarves     []Dwarf
-	animals     []interface{}
-	items       []interface{}
 }
