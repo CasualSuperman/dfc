@@ -16,3 +16,7 @@ type Chunk interface {
 type Interacter interface {
 	
 }
+
+type Tile interface{}
+
+var _ = simplexnoise.Noise1(0)
