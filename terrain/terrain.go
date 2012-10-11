@@ -14,7 +14,6 @@ type Chunk interface {
 }
 
 type Interacter interface {
-	
 }
 
 type Tile interface{}

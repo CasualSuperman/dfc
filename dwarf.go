@@ -17,5 +17,5 @@ type Relation struct {
 
 type Position_List []struct {
 	x, y, z int
-	thing *Dwarf
+	thing   *Dwarf
 }

@@ -5,12 +5,12 @@ import (
 )
 
 type Material struct {
-	Name string
-	Tile int
-	Temp temps
+	Name    string
+	Tile    int
+	Temp    temps
 	Density density
-	Color colors
-	Value int
+	Color   colors
+	Value   int
 }
 
 type temps struct {
@@ -32,8 +32,8 @@ type density struct {
 }
 
 type colors struct {
-	Display c.RGBA
-	Tile c.RGBA
+	Display  c.RGBA
+	Tile     c.RGBA
 	Building c.RGBA
 }
 
