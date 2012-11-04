@@ -4,7 +4,8 @@ package ui
 // DejaVu Sans Mono has good support for the characters we'll likely be using
 // to build rooms.
 // Monofur looks cool and also has good support, while the character shape
-// looks like it belongs in a fantasy game.
+// looks like it belongs in a fantasy game; however, the transitions from thick
+// to thin walls don't line up.
 
 // ============ Termbox =============
 // https://github.com/nsf/termbox-go/

@@ -22,5 +22,6 @@ var disp2 = `┌─┬┐╔═╦╗┏━┳┓╓─╥╖╒═╤╕
  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
 
 func main() {
+	fmt.Println(disp)
 	fmt.Println(disp2)
 }
