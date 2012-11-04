@@ -1,5 +1,10 @@
 package ui
 
+// Fonts
+// DejaVu Sans Mono has good support for the characters we'll likely be using
+// to build rooms.
+
+
 // ============ Termbox =============
 // https://github.com/nsf/termbox-go/
 // Pros:
