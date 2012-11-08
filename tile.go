@@ -1,6 +1,8 @@
 package main
 
+import "github.com/CasualSuperman/dfc/items"
+
 type Tile struct {
-	material Material
+	material items.Material
 	fluid    Fluid
 }

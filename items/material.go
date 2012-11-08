@@ -1,4 +1,4 @@
-package main
+package items
 
 import (
 	c "image/color"
@@ -10,7 +10,7 @@ type Material struct {
 	Temp    temps
 	Density density
 	Color   colors
-	Value   int
+	Value   uint
 }
 
 type temps struct {
