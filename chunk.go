@@ -9,7 +9,6 @@ package main
 //}
 
 type Chunk interface {
-
 }
 
 type chunk struct {

@@ -24,9 +24,9 @@ func NewItemCategory(r rune, name string, volume float32, value uint) ItemCatego
 
 type itemCategory struct {
 	character rune
-	name string
-	volume float32
-	value uint
+	name      string
+	volume    float32
+	value     uint
 }
 
 func (i itemCategory) Character() rune {
@@ -39,9 +39,9 @@ func (i itemCategory) Type() string {
 
 type item struct {
 	*itemCategory
-	name string
-	material *Material
-	quality Quality
+	name        string
+	material    *Material
+	quality     Quality
 	temperature Temperature
 }
 
