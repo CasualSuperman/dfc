@@ -1,4 +1,4 @@
-package main
+package terrain
 
 type Fluid uint8
 
